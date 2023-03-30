@@ -14,7 +14,7 @@ var scoreWin = 0;
 var scoreLose = 0;
 var count = 0; // declaring "count" here makes the variable globally available
 
-for (count = 1; count < 20 ; count++) {
+for (count = 1; count < 500 ; count++) {
     // player1 must INPUT R, P, or S 
     // add failsafe for lowercase or non-matches
     var chooseItem = prompt("Lets play Rock, Paper, Scissors ...choose R, P or S");
